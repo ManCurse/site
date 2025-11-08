@@ -1,0 +1,7 @@
+{
+  "name": "Secure Low-Latency Screen Share",
+  "description": "A room-based, secure screen sharing web application using WebRTC for ultra-low latency streaming. Features dynamic quality control and guaranteed session termination.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

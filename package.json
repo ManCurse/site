@@ -1,0 +1,28 @@
+{
+  "name": "secure-low-latency-screen-share",
+  "version": "1.0.0",
+  "description": "A room-based, secure screen sharing web application using WebRTC for ultra-low latency streaming. Features dynamic quality control and guaranteed session termination.",
+  "private": true,
+  "homepage": "https://<ВАШ_НИКНЕЙМ>.github.io/<НАЗВАНИЕ_ВАШЕГО_РЕПОЗИТОРИЯ>",
+  "author": "AI Assistant",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  }
+}
